@@ -1,2 +1,2 @@
 # CA296-Assembly
-My programs for DCU CASE module 
+My programs for the DCU CASE module about Assembly Level Programming
