@@ -32,8 +32,8 @@ foundvowel:
 	mov [al],bl ;replace whats in al wirh bl("Z")
 	mov bl,5a ;put "Z" back in bl
 	dec dl ;decrement (substract 1) from dl
-	inc al ;jump back to topof loop
-	jmp main
+	inc al ;increment (add 1) to al
+	jmp main ;jump back to topof loop
 
 progend:
 	end

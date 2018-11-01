@@ -20,12 +20,12 @@ main:
 	jz progend ;if 0 jump to end
 	dec dl ;decrement dl by 1, next register
 	jmp main ;go back to top of loop
-	
+
 
 replace:
 	mov [al],bl ;put bl(5A = "Z") into AL [dereferencing bl and putting into AL]
 	mov bl,5A ;putting 5A back into bl for another comparison
 	jmp main ;jump to main loop
 
-progend:	
+progend:
 	end ;end program
