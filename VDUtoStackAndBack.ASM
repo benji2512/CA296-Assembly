@@ -1,4 +1,5 @@
 ;The following code collects all the vowels from a string and puts them onto the stack
+;unfinshed as of this update. working locally to get it working. 
 
 org c0
 db "HI THERE"
